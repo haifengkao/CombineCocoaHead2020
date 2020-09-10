@@ -1,0 +1,16 @@
+source 'https://cdn.cocoapods.org/'
+source 'git@bitbucket.org:howgeli/csspecs.git'
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CombineCocoaHeads_Example' do
+  pod 'CombineCocoaHeads', :path => '../'
+
+  target 'CombineCocoaHeads_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 2.0'
+    pod 'Nimble', '~> 8.0'
+  end
+end
