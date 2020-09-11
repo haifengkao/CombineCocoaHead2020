@@ -5,7 +5,7 @@ The demo playground is located at `Example/CombineCocoaHeads/MyPlayground.playgr
 
 ## Author
 
-Hai\ Feng\ Kao, haifeng@cocoaspice.in
+Hai Feng Kao, haifeng@cocoaspice.in
 
 ## License
 
