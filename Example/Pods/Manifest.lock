@@ -1,0 +1,32 @@
+PODS:
+  - CombineCocoaHeads (0.1.0):
+    - OpenCombine
+  - Nimble (8.1.2)
+  - OpenCombine (0.10.0)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - CombineCocoaHeads (from `../`)
+  - Nimble (~> 8.0)
+  - OpenCombine
+  - Quick (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - OpenCombine
+    - Quick
+
+EXTERNAL SOURCES:
+  CombineCocoaHeads:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CombineCocoaHeads: 48091a4b9cb5b3e7881d52645ab1e2ad6cb42117
+  Nimble: 3864815b4703c7ebffba875973c70e854489fbae
+  OpenCombine: 3601defa3d2dbb6db5cd81444f762597168cfe24
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: 4467eea6a621bb7e3779f106494ef3bccb938a42
+
+COCOAPODS: 1.9.3

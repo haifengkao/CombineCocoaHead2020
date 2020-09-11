@@ -2,10 +2,11 @@ source 'https://cdn.cocoapods.org/'
 source 'git@bitbucket.org:howgeli/csspecs.git'
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '14.0'
 
 target 'CombineCocoaHeads_Example' do
   pod 'CombineCocoaHeads', :path => '../'
+  pod 'OpenCombine'
 
   target 'CombineCocoaHeads_Tests' do
     inherit! :search_paths
